@@ -18,3 +18,4 @@ The quiz allows the following:
 ![Coding Quiz](https://user-images.githubusercontent.com/104603148/171038930-6d06240a-2d42-4bd6-9eae-3f5f49a70826.png)
 
 ## Link to Deployed Quiz:
+https://gregm316.github.io/coding-quiz/
