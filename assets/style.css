@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+  }
+    
+  time {
+    min-width: 80px;
+  }
+    
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .button {
+    display: block;
+    color: #ffffff;
+    background-color: rgb(74, 7, 74);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .inline-buttons {
+    display: inline-flex;
+  }
+    
+  .box {
+    margin: 50px
+  }
+    
+  #start-screen {
+    display: inline;
+    text-align: center;
+  }
+    
+  .choice-button {
+    background-color: rgb(74, 7, 74);
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #answer-div {
+    display: none;
+  }
+    
+  .inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  #initials {
+    width: 25%;
+    margin: 8px;
+    padding: 1px;
+  }
+    
+  #return-button {
+    margin-right: 10px;
+  }
+  
+  .highscore-list {
+    padding-inline-start: 20px;
+  }
+    
+  @media screen and (min-width: 850px) {
+    .card {
+      max-width: 680px;
+    }
+  }
+  
+  @media (hover) {
+    a:hover {
+      opacity: .5;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      opacity: .5;
+      cursor: pointer;
+    }
+  }

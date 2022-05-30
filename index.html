@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a id="leaderboard-link">View Highscores</a>
+      <time>Timer: <span id="timer"></span></time>
+    </header>
+
+    <main>
+      <div id="start-box" class="box">
+        <h1 id="title">Coding Quiz!</h1>
+        <p>
+          Answer the following questions in the given time limit. <br /><br />
+          Incorrect answers will knock 10 seconds off your time and will hurt
+          your score!
+        </p>
+        <button id="start-button" class="button">Begin Quiz</button>
+      </div>
+
+      <div hidden id="question-box" class="box">
+        <h2 id="question-text"></h2>
+
+        <div id="question-choices">
+          <button id="choice0" class="choice-button"></button>
+          <button id="choice1" class="choice-button"></button>
+          <button id="choice2" class="choice-button"></button>
+          <button id="choice3" class="choice-button"></button>
+        </div>
+
+        <div id="answer-div">
+          <br /><br />
+          <p id="answer-text"></p>
+        </div>
+      </div>
+
+      <div hidden id="score-box" class="box">
+        <h2>End of Quiz!!</h2>
+        <p>Your score: <span id="score"></span></p>
+        <form class="inline-form" id="score-submission">
+          <label for="initials">Enter initials: </label>
+          <input type="text" id="initials" />
+          <button id="submit-button" class="button">Submit</button>
+        </form>
+      </div>
+
+      <div hidden id="leaderboard-box" class="box">
+        <h2>Highscores</h2>
+        <ol id="highscores"></ol>
+        <div class="inline-buttons">
+          <button id="return-button" class="button">Return</button>
+          <button id="clear-button" class="button">Clear Highscores</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/highscores.js"></script>
+  </body>
+</html>
